@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    margin: auto;
+    line-height: 2.5em;
+    background-image: url("../images/sun-pattern.png")
+}
+
+div {
+    display:  block;
+}
+
+h1, h2, h3 {
+    text-align:  center;
+}
+
+img {
+    border-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  text-decoration: none;
+}
+
+.active {
+  background-color: orange;
+}
+
+.my-content {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.5em;
+    font-weight: 900;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
